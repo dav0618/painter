@@ -1,0 +1,122 @@
+.fCell {
+    height: fit-content;
+    width: fit-content;
+    max-width: 800px;
+    max-height: 800px;
+    border: 0.5px solid black;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.rCell {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+
+.cell {
+    width: 25px;
+    height: 25px;
+    border: 0.5px solid black;
+    /* display: flex; */
+}
+
+.paintBar {
+    /* position: absolute;
+    top: 5px;
+    right: 5px; */
+    width: fit-content;
+    height: fit-content;
+    max-height: 500px;
+    overflow-y: auto;
+    /* border: 1px solid black; */
+}
+
+.paintBarRow {
+    display: flex;
+    /* position: absolute; */
+}
+
+.paintBarCell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    margin: 3px;
+}
+
+
+/* .searchBar{
+    position: absolute;
+    top
+} */
+
+.paintBarFather {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: 1px solid black;
+}
+
+.blockSize {
+    /* display: flex; */
+    /* flex-flow: column; */
+    position: absolute;
+    /* gap: 10px; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* align-content: center; */
+    top: 5px;
+    left: 5px;
+    border: 1px solid black;
+    width: 200px;
+}
+
+.blockSizeCh1 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 120px;
+
+}
+
+.blockSizeCh2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+    height: 40px;
+}
+
+.blockSizeCh3 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid black;
+    height: 57px;
+}
+
+.blockSizeCh3Ch1 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.button {
+    height: 20px;
+}
+
+.round3 {
+    border: 1px solid white;
+    outline: 3px solid #43b702;
+
+}
+
+.canvasFather {
+    visibility: hidden;
+    display: flex;
+    border: 1px solid black;
+    /* justify-content: center; */
+}
